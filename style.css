@@ -1,21 +1,39 @@
 body {
-    background-color : rgba(85, 224, 85, 0.726);
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #fcfcfc 0%, #9599E2 100%);
+  
+}
+
+img.icon {
+  width : 5%;
+  height : 5%;
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-}
+  display: flex;
+  align-items : space-between;
+  justify-content : center;
+  }
 
 .flex {
-    width : 30%;
-    height: 30%;
+  width : 50%;
+  height: 50%;
+  margin-right : 25%;
+  margin-top : 5%;
+  justify-self : center;
+  align-self: baseline;
+  border-radius: 5%;
 }
 
-.icon {
-    width : 5%;
-    height : 5%;
-    align-items: start;
+.info {
+  justify-self: flex-start;
+  align-self: self-end;
+  margin-top : 36%;
+  margin-right : 18%;
+  padding-left : 5%;
+}
+
+.learn {
+  justify-self: left;
+  align-self: flex-start;
 }
